@@ -1,3 +1,23 @@
+*{
+  font-style:normal;
+  font-family: 'Markazi Text Medium';
+  cursor:default;
+}
+.home{
+  margin: 1vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.fcoloumn{
+  display: flex;
+  flex-direction: column;
+}
+.frow{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +55,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* start of styles */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  color: #333333;
+  margin: 1vh;
+  cursor: pointer;
+}
+
+li a {
+  display: block;
+  color: #EDEFEE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.ll>h1{
+  color: #f4ce14;
+}
+
+.ll>h2{
+  color: white;
+  font-family: 'KARLA REDGULAR';
+}
+.ll>aside{
+  color: white;
+}
+
+.main{
+  background-color:#495E57;
+  padding: 30px;
+}
+
+
+
+.cards{
+  background-color: #EDEFEE;
+  color: #333333;
+  /* color: #EE9972;
+  color: #fbdab0; */
+}
+
+.flex{
+  display: flex !important;
+  flex-direction: row;
+  column-gap: 20px;
 }
